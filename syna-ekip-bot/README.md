@@ -1,36 +1,39 @@
-# Discord Bot Projesi
+# syna-ekip-bot
 
-Bu proje Discord.js kullanılarak geliştirilmiş bir Discord bot projesidir.
+A Discord bot built with discord.js that runs internal team processes: applications, activity tracking, warnings and welcome cards.
 
-## Kurulum
+## Installation
 
-1. Node.js'in yüklü olduğundan emin olun
-2. Gerekli paketleri yükleyin:
+1. Make sure Node.js is installed
+2. Install the dependencies:
 ```bash
 npm install
 ```
 
-3. `config.json` dosyasını düzenleyin ve bot token'ınızı ekleyin
-4. Botu başlatın:
+3. Copy `config.example.json` to `config.json` and add your bot token
+4. Start the bot:
 ```bash
 npm start
 ```
 
-## Proje Yapısı
+## Project structure
 
-- `index.js` - Ana bot dosyası
-- `config.json` - Bot konfigürasyonu
-- `commands/` - Slash komutları
-- `events/` - Bot olayları
-- `data/` - Veri dosyaları
+- `index.js` — main bot file
+- `config.json` — bot configuration (not in the repository, create it yourself)
+- `commands/` — slash commands
+- `events/` — bot events
+- `data/` — data files (not in the repository, generated at runtime)
 
-## Komutlar
+## Commands
 
-- `/ping` - Bot gecikme süresini gösterir
+- `/başvuru` — application flow
+- `/aktiflik` — voice channel activity report
+- `/uyarı` — internal team warnings
+- `/setup` — initial setup
 
-## Geliştirme
+## Development
 
-Geliştirme modunda çalıştırmak için:
+To run in development mode:
 ```bash
 npm run dev
 ```
