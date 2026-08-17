@@ -1,0 +1,18 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "Ticket sistemi için Discord botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "alvar",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "canvas": "^3.1.2",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  }
+}

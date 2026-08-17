@@ -1,0 +1,16 @@
+{
+  "name": "Synatx-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with auto-role functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "keywords": ["discord", "bot", "auto-role"],
+  "author": "Synatx",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+    "token": "",
+    "clientId": "",
+    "guildId": "",
+    "prefix": "!",
+    "ownerId": "",
+    "memberRoleId": "",
+    "ticketCategoryId": "",
+    "voiceChannelId": "",
+    "footer": {
+        "text": ""
+    }
+}

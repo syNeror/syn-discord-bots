@@ -1,0 +1,56 @@
+# ---------------------------------------------
+# SIRLAR — asla commit'lenmemeli
+# ---------------------------------------------
+# Gerçek config'ler bot token'ı ve sunucu ID'leri içerir.
+# Repoda yalnızca config.example.json bulunur.
+config.json
+.env
+.env.*
+
+# ---------------------------------------------
+# Çalışma zamanı verileri
+# ---------------------------------------------
+# Sunucu yedekleri, uyarı kayıtları, kullanıcı istatistikleri —
+# bunlar bota özel üretilir, sürüm kontrolünde yeri yoktur.
+data/
+*.sqlite
+*.sqlite3
+*.db
+json.sqlite
+
+# Botların çalışırken ürettiği durum dosyaları. Gerçek kullanıcı ID'leri,
+# ceza ve sipariş kayıtları, mesaj arşivi içerirler.
+logStore.json
+log.json
+logs/
+cezalar.json
+punish.json
+blacklist.json
+ekipler.json
+stats.json
+siparisdata.json
+ticketStats.json
+ticketid.json
+autoRoleData*.json
+**/commands/logs/
+
+
+# ---------------------------------------------
+# Node
+# ---------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---------------------------------------------
+# Yerel araç ayarları / editör / işletim sistemi
+# ---------------------------------------------
+.claude/settings.local.json
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
+
+# Koruma botu repoya dahil edilmiyor (mantigi gizli kalmali)
+syna-guard-bot/

@@ -1,0 +1,21 @@
+{
+  "name": "synatx-bot",
+  "version": "1.0.0",
+  "description": "Sunucu durum sistemli Discord botu (aktif/bakim/restart)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.77",
+    "axios": "^1.12.2",
+    "basic-ftp": "^5.0.5",
+    "better-sqlite3": "^7.6.2",
+    "canvacord": "^5.4.10",
+    "canvafy": "^7.2.1",
+    "discord.js": "^14.16.0",
+    "form-data": "^4.0.4",
+    "quick.db": "^9.1.7"
+  }
+}
